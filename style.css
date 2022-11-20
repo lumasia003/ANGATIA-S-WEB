@@ -1,0 +1,237 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html, body{
+    background-color: burlywood;
+
+}
+.heading{
+    font-family: monospace;
+    background-color: blue;
+    margin-top: 210px;
+}
+.menu{
+    display: flex;
+    float: left;
+    background-color: grey;
+    width: 1400px;
+    height: 50px;
+    padding-left: 20px;
+}
+ul li{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding-left: 110px;
+    transition: 0.4s ease-in-out;
+    font-weight: 700;
+
+}
+ul li:hover{
+    transform: scale(1.1);
+    color: bisque;
+}
+ul li a{
+    text-decoration: none;
+}
+.about-us{
+    background-color: grey;
+    height: 500px;
+    width: 1100px;
+    margin-left: 130px;
+    margin-top: 210px;
+    border-top-left-radius:7px ;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: 1px 5px 1px black;
+    M
+}
+.about-us:{
+    cursor: pointer;
+}
+
+#content{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.hobbies{
+    margin-left: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contacts{
+    width: 600px;
+    height: 400px;
+    background-color: darkgray;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-left: 390px;
+    padding-left: 20px;
+}
+.fa{
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    float: inherit;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background: #3b5998;
+    color: white;
+}
+.fa-twitter{
+    background-color: aliceblue;
+    color: blue;
+}
+.fa-instagram{
+    background-color: white;
+    color: red;
+}
+.fa-whatsapp{
+    background-color: green;
+    color: azure;
+}
+.fa-google{
+    background-color: black;
+    color: snow;
+}
+.pic-1{
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: darkgray;
+}
+.pic-2{
+    width: 350px;
+    height: 250px;
+    background-color: blue;
+    margin-left: 520px;
+    margin-top: -250px;
+
+}
+.pic-3{
+    width: 350px;
+    height: 250px;
+    background-color: yellow;
+    margin-left: 970px;
+    margin-top: -250px;
+
+}
+.pic-4{
+    width: 350px;
+    height: 250px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+.pic-5{
+    width: 350px;
+    height: 250px;
+    background-color: green;
+    margin-left: 730px;
+    margin-top: -250px;
+
+}
+.copyright{
+    background-color: green;
+    width: 1400px;
+    margin-top: 400px;
+    height: 90px;
+}
+.copyright-2{
+    background-color: green;
+    margin-top: 530px;
+    height: 70px;
+    width: 1500px;
+    margin-left: -140px;
+    padding-left: 600px;
+
+
+}
+.copyright-4{
+    padding-left: 600px ;
+    margin-top: 50px;
+    background-color: green;
+    height: 100px;
+}
+h5{
+    justify-content: center;
+    justify-items: center;
+    font-family: monospace;
+    padding-left: 600px;
+}
+h4{
+    font-family: monospace;
+}
+.mapouter{
+    margin-top: 210px;
+}
+.burner-5{
+    background-color: blue;
+    width: 800px;
+    height: 200px;
+    margin-top: -230px;
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bangers", sans-serif;
+    padding-left: 30px;
+
+}
+.burner-4{
+    background-color: blue;
+    width: 800px;
+    height: 200px;
+    margin-top: -820px;
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bangers", sans-serif;
+    padding-left: 30px;
+
+}
+.gallery{
+    margin-top: 280px;
+}
+.burner-3{
+    background-color: blue;
+    width: 800px;
+    height: 200px;
+    margin-top: -820px;
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bangers", sans-serif;
+    padding-left: 30px;
+
+}
+.burner-1{
+    background-color: blue;
+    width: 800px;
+    height: 200px;
+    margin-top: -440px;
+    margin-left: 160px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bangers", sans-serif;
+    padding-left: 30px;
+
+}
